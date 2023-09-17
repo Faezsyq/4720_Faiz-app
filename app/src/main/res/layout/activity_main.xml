@@ -17,15 +17,15 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="394dp"
-        android:layout_height="541dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#26577C"
         android:backgroundTint="#DD330707"
         android:backgroundTintMode="multiply"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="248dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="248dp">
 
     </LinearLayout>
 
