@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="556dp"
         android:layout_height="857dp"
-        android:background="@drawable/download"
+        android:background="@drawable/amikom"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-82dp"
         tools:layout_editor_absoluteY="56dp" />
