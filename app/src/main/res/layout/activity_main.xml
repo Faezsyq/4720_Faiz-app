@@ -8,12 +8,21 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_width="556dp"
+        android:layout_height="857dp"
+        android:background="@drawable/download"
+        tools:layout_editor_absoluteX="-63dp"
+        tools:layout_editor_absoluteY="-26dp"
+        tools:ignore="MissingConstraints" />
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="113dp"
+        android:src="@drawable/fotosaya"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="183dp" />
     <TextView
         android:id="@+id/Nama"
         android:layout_width="wrap_content"
@@ -121,5 +130,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.563" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
