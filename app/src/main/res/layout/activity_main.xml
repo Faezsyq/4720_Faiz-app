@@ -12,22 +12,8 @@
         android:layout_height="857dp"
         android:background="@drawable/download"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-63dp"
-        tools:layout_editor_absoluteY="-26dp" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#26577C"
-        android:backgroundTint="#DD330707"
-        android:backgroundTintMode="multiply"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="248dp">
-
-    </LinearLayout>
+        tools:layout_editor_absoluteX="-82dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
