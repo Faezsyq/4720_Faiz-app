@@ -11,126 +11,79 @@
         android:layout_width="556dp"
         android:layout_height="857dp"
         android:background="@drawable/download"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-63dp"
-        tools:layout_editor_absoluteY="-26dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="-26dp" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="394dp"
+        android:layout_height="541dp"
+        android:background="#26577C"
+        android:backgroundTint="#DD330707"
+        android:backgroundTintMode="multiply"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="248dp"
+        tools:ignore="MissingConstraints">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="118dp"
-        android:layout_height="113dp"
-        android:src="@drawable/fotosaya"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="183dp" />
-    <TextView
-        android:id="@+id/Nama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nama Mahasiswa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/ValueNama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Faizal Hanif Asy Syauqi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#5C2BB3"
+        android:contextClickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/NIM"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NIM"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFIL MAHASISWA"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
 
-    <TextView
-        android:id="@+id/ValueNIM"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="21.01.4720"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.622"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="118dp"
+            android:layout_height="113dp"
+            android:src="@drawable/fotosaya"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/Prodi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Program Studi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.224"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        <TextView
+            android:id="@+id/ValueNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:text="Faizal Hanif Asy Syauqi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#000000"
+            android:textStyle="normal|bold" />
 
-    <TextView
-        android:id="@+id/ValueProdi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="D3 Teknik Informtika"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        <TextView
+            android:id="@+id/ValueNIM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.01.4720"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/Sc1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+        <TextView
+            android:id="@+id/ValueProdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D3 Teknik Informatika"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/Sc2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
-
-    <TextView
-        android:id="@+id/Sc3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
-
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
